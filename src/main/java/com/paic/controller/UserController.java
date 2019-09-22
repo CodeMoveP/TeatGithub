@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 /**
  * url转发
- * controller层传递对象参数时记得前面加@RequestBody注解 ????转成json？？？
+ * controller层传递对象参数时记得前面加@RequestBody注解
  */
 @Controller
 @RequestMapping(value = "/user")

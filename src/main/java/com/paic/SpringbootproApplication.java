@@ -1,0 +1,17 @@
+package com.paic;
+
+import org.mybatis.spring.annotation.MapperScan;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.ComponentScan;
+
+@MapperScan("com.paic.dao")
+@SpringBootApplication
+@ComponentScan(basePackages = {"com.paic.controller","com.paic.service"})
+public class SpringbootproApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(SpringbootproApplication.class, args);
+    }
+
+}
